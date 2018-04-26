@@ -76,3 +76,53 @@ img {
 .clearfix {
   clear: both;
 }
+
+/*
+  * phones: < 768px
+  * tablets: >= 768px 
+  * desktops: >= 992px
+  * big desktops: >= 1200px
+*/
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: hsla(127, 70%, 57%, 1);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: hsla(127, 67%, 24%, 1);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .hours, .directions {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+  }
+
+  .plant {
+    width: 100%;
+    margin-right: 0%;
+    float: none;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .plant__image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: none;
+  }
+
+  .store-image {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+}
