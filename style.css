@@ -1,0 +1,45 @@
+/*
+lightest - hsla(127, 50%, 85%, 1)
+lighter - hsla(127, 60%, 70%, 1)
+med - hsla(127, 70%, 57%, 1)
+dark - hsla(127, 67%, 24%, 1)
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsla(127, 60%, 70%, 1);
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.container {
+  background-color: hsla(127, 50%, 85%, 1);
+  width: 90%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.header {
+  padding-bottom: 1rem;
+}
+
+.header__title {
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menuitem {
+  display: inline-block;
+  margin-right: 1rem;
+}
