@@ -14,6 +14,11 @@ body {
   padding: 0;
   background-color: hsla(127, 60%, 70%, 1);
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
@@ -21,6 +26,17 @@ body {
   width: 90%;
   padding: 1rem;
   margin: 0 auto;
+}
+
+.header__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menuitem {
+  display: inline-block;
+  margin-right: 1rem;
 }
 
 .header {
@@ -33,13 +49,30 @@ body {
   padding: 0;
 }
 
-.header__menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.hours, .directions {
+  width: 45%;
+  margin-right: 5%;
+  float: left;
 }
 
-.header__menuitem {
-  display: inline-block;
-  margin-right: 1rem;
+.plant {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.plant__image {
+  float: right;
+  width: 40%;
+  margin: 0 0 1rem 1rem;
+}
+
+.store-image {
+  float: right;
+  width: 40%;
+  margin: 0 0 1rem 1rem;
+}
+
+.clearfix {
+  clear: both;
 }
